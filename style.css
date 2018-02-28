@@ -1,0 +1,195 @@
+   
+body{
+    background-color: #F5F5F5;
+    font-family: Raleway, sans-serif;
+      }
+
+#ustcizgi{
+    align-items: center;
+    width: 70%;
+    margin-top: 40px;
+}
+
+#logob{
+    height: 60px;
+    width: auto;
+}
+
+.basliklar{
+    display: inline-block;
+    border-bottom: solid 10px yellow;
+    margin-top: auto;
+    margin-right: 20px;
+}
+
+.basliklar:hover{
+    background-color: yellow;
+}
+
+.basliklar-sag:hover{
+    background-color: yellow;
+}
+.basliklar-sag{
+    display: inline-block;
+    float: right;
+    margin-top: auto;
+    margin-left: 30px;
+}
+
+#ustteki{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 1em;
+}
+
+#h3m{
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1,1em;
+}
+
+#arama{
+    float: right;
+    width: 65px;
+    border: 1px black;
+    border-style: dashed;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: cornsilk;
+    background-image: url('searchicon.png');
+    background-size: 32px;
+    background-position: 7px 6px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 393px;
+    box-sizing: border-box;
+    height: 465px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cerceve p, h2{
+    margin: 10px;
+    color: black;
+}
+
+#orta{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+#eposta{
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+#eposta-head{
+    font-size: 2em;
+    line-height: 2em;
+    font-weight: 250;
+    background: yellow;
+    display: inline;
+}
+
+#eposta-mid{
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 150;
+    letter-spacing: 3px;
+    margin-top: -1px;
+}
+
+#isaretleme{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+#inbut{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 15px;
+    width: 45%;
+    background-color:cornsilk;
+}
+
+#gonder{
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+    color: darkslategrey;
+    padding: 5px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+.sosyal-medya li{
+    display: inline-block;
+    margin-right: 1em;
+    margin-top: 1.8em;
+}
+
+.sosyal-medya{
+    margin-left: -2.5em;
+    margin-bottom: 2em;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.sponson{
+    display: inline-block;
+}
+
+@media screen and (min-width:700px){
+    
+    .ayak {
+        width: 32%;
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
